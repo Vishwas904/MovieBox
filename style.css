@@ -30,15 +30,16 @@
     width: 2.8rem;
 }
 
-.searchBar {
+.searchBar{
     width: 32rem;
+    background: transparent;
     padding: .4rem;
     border-radius: 5px;
     font-size: larger;
     border: 2px solid #9c9c9c;
 }
 
-.btn {
+.btn{
     padding: 0.4rem;
     font-size: 1rem;
     background-color: #ec365e;
@@ -47,4 +48,70 @@
     border-radius: 3px;
     border: none;
     cursor: pointer;
+}
+/* hero section */
+.main{
+    background-image: url("./pics/Poster.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    /* background-color: black; */
+    height: 50rem;
+    width: 100%;
+}
+.hero-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40rem;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15rem 0 0;
+}
+.title{
+    font-size: 3rem;
+    width: 20rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1rem 0rem;
+}
+.imbd-logo img{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+.rt-logo img{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+.rating{
+    display: flex;
+    margin: 1rem 0rem;
+
+}
+.imbd , .rt{
+    display: flex;
+    margin: 0 1rem;
+}
+.dec{
+    width: 22rem;
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+}
+.hero-btn input{
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    background-color: #ec365e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
 }
